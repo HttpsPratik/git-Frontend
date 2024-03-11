@@ -1,0 +1,52 @@
+<section class="team my-5 text-center">
+        <div class="container">
+          <div class="text-center my-5">
+            <h1> Listings</h1>
+            <hr / class="w-25 m-auto">
+  
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+              <div class="card">
+                <div class="card-body">
+                <img src="images/dog-snehas-care-1024x734.jpg" class="img-fluid rounded-circle border border-primary p-2">
+                
+                  <h5 class="card-title mt-4">Title</h5>
+                  <p class="card-text">
+                 Age : 2years <br>  Male - Medium Sprayed / Neutered
+                  </p>
+                 <a href="#" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+              <div class="card">
+                <div class="card-body">
+                <img src="images/dog-snehas-care-1024x734.jpg" class="img-fluid rounded-circle border border-primary p-2">
+                
+                  <h5 class="card-title mt-4">Title</h5>
+                  <p class="card-text">
+                 Age : 2years <br>  Male - Medium Sprayed / Neutered
+                  </p>
+                 <a href="#" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+              <div class="card">
+                <div class="card-body">
+                <img src="images/dog-snehas-care-1024x734.jpg" class="img-fluid rounded-circle border border-primary p-2">
+                
+                  <h5 class="card-title mt-4">Title</h5>
+                  <p class="card-text">
+                 Age : 2years <br>  Male - Medium Sprayed / Neutered
+                  </p>
+                 <a href="#" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+       </section>
+

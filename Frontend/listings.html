@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Listings</title>
+    <link rel="stylesheet" href="home.css">
+   <link rel="stylesheet" href="listings.css">
+   <script src="https://kit.fontawesome.com/44f557ccce.js"></script>
+
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="images/image (5).jpg" alt="Logo"></div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="listings.html">Listings</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="message.html">Message</a></li>
+            <li><a href="donate.html">Donate</a></li>
+        
+        </ul>
+        <div class="rightnav">
+          <a class="profile-button" onclick="location.href='inbox.html'">
+            <i class="fas fa-envelope" ></i> Inbox
+          </a>
+          <a  class="profile-button" onclick="location.href='login.html'">
+            <i class="fas fa-user"> User</i> 
+          </a>     
+          <a class="profile-button" id="searchButton">
+            <i class="fas fa-search"></i> Search
+          </a>
+          <div class="popup-label">
+            <input type="text" name="popup-label1" id="popup-label1" placeholder="Enter your queries">
+          <button class="btn4 btn-sm" onclick="location.href='search.html'">Go</button>
+          </div> 
+          <script src="searchpop.js"></script>
+            
+        </div>
+    </nav>
+    <div class="post-box">
+      <div class="border-box">
+    <div class="r-sec">
+      <h2>Have pets for Adoption ?</h2></div>
+    <a href="#" class="post-adoption-button" onclick="location.href='post.html'">Post Now</a>
+    
+  </div>
+  <h1 class="product-header">Available Pets</h1>
+  <div class="filter">
+    
+    <div class="filter-selects">
+      <select id="category">
+        <option value="">Filter by category...</option>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="bird">Bird</option>
+        <option value="others">Others</option>
+       
+      </select>
+      <select id="ageFilter">
+        <option value="">Filter by age...</option>
+        <option value="three">3 to 6 months</option>
+        <option value="seven"> 7 to 12 months</option>
+        <option value="one">1 to 3 years</option>
+        <option value="four">4 to 7 years</option>
+        <option value="eight">8 to 12 years</option>
+      </select>
+      <select id="genderFilter">
+        <option value="">Filter by gender...</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+      <select id="sizeFilter">
+        <option value="">Filter by size...</option>
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="big">Big</option>
+      </select>
+      <button id="searchButton">Search</button>
+    </div>
+  </div>
+  
+  <script src="filter.js"></script>
+</div>
+    <section class="product-list">
+      <div class="product">
+        <img src="images/dog-snehas-care-1024x734.jpg" alt="Dog">
+        <h2>Sheru</h2>
+        <p>Male</p>
+        <p>Age: 2 years</p>
+        <button onclick="window.open('sheru.html', '_blank')">Read More</button>
+      </div>
+      
+      <div class="product">
+        <img src="pets/Muda.jpg" alt="Cat">
+        <h2>Xotu</h2>
+        <p>Male</p>
+        <p>Age: 2 years</p>
+        <button onclick="window.open('xotu.html', '_blank')">Read More</button>
+      </div>
+
+      <div class="product">
+        <img src="images/Foxy.jpg" alt="Dog">
+        <h2>Foxy</h2>
+        <p>Female</p>
+        <p>Age: 5 years</p>
+        <button onclick="window.open('foxy.html', '_blank')">Read More</button>
+      </div>
+      
+
+      <div class="product">
+        <img src="pets/meow7.webp" alt="Cat">
+        <h2>Furry</h2>
+        <p>Female</p>
+        <p>Age: 2 years</p>
+        <button>Read More</button>
+      </div>
+    
+      <div class="product">
+        <img src="pets/spike.jpg" alt="Dog">
+        <h2>Spike</h2>
+        <p>Male</p>
+        <p>Age: 1.5 years</p>
+        <button>Read More</button>
+      </div>
+
+      <div class="product">
+        <img src="pets/dog1.jpg" alt="Dog">
+        <h2>Rocky</h2>
+        <p>Male</p>
+        <p>Age: 4 years</p>
+        <button>Read More</button>
+      </div>
+      
+      <div class="product">
+        <img src="pets/meow4.jpeg" alt="Cat">
+        <h2>Happy</h2>
+        <p>Female</p>
+        <p>Age: 1 year</p>
+        <button>Read More</button>
+      </div>
+      
+      <div class="product">
+        <img src="pets/poor baby😭❤️.jpeg" alt="Dog">
+        <h2>Tommy</h2>
+        <p>Male</p>
+        <p>Age: 6 years</p>
+        <button>Read More</button>
+      </div>
+      
+      <div class="product">
+        <img src="pets/meow1.jpg" alt="Cat">
+        <h2>Nancy</h2>
+        <p>Female</p>
+        <p>Age: 6 months</p>
+        <button>Read More</button>
+      </div>
+      <div class="product">
+        <img src="pets/This is Linda A Swiss White Shepherd dog_Our family found her on the street when she was a little puppy.jpeg" alt="Dog">
+        <h2>Linda</h2>
+        <p>Female</p>
+        <p>Age: 2 years</p>
+        <button>Read More</button>
+      </div>
+      
+      <div class="product">
+        <img src="pets/meow5.jpg" alt="Cat">
+        <h2>Browny</h2>
+        <p>Female</p>
+        <p>Age: 1 year</p>
+        <button>Read More</button>
+      </div>
+      
+      <div class="product">
+        <img src="pets/meow2.jpg" alt="Cat">
+        <h2>Goldy</h2>
+        <p>Male</p>
+        <p>Age: 4 years</p>
+        <button>Read More</button>
+      </div>
+      
+      <div class="product">
+        <img src="pets/meow3.webp" alt="Cat">
+        <h2>Billy</h2>
+        <p>Male</p>
+        <p>Age: 2 months</p>
+        <button>Read More</button>
+      </div>
+
+      <div class="product">
+        <img src="pets/9232c58d-32ba-4857-80d7-3f7daa7e8036.jpeg" alt="Dog">
+        <h2>Buddy</h2>
+        <p>Female</p>
+        <p>Age: 3 years</p>
+        <button>Read More</button>
+      </div>
+      
+      <div class="product">
+        <img src="images/6f6d6bed0f520f6303a2ec92c420dbbf.jpg" alt="Dog">
+        <h2>Khairu</h2>
+        <p>Male</p>
+        <p>Age: 1.6 years</p>
+        <button>Read More</button>
+      </div>
+      
+  
+    </section>
+ 
+
+    <div class="pagination">
+      <a href="#" class="prev">Previous</a>
+      <a href="#" class="page">1</a>
+      <a href="#" class="page">2</a>
+      <a href="#" class="page">3</a>
+      <a href="#" class="next">Next</a>
+    </div>
+    <button id="arrowButton" title="Scroll to Top">
+      <span class="arrow-up"></span>
+    </button>
+  
+    <script src="arrow.js"></script>
+    <footer>
+        <div class="container">
+          <div class="footer-section">
+            <h3>About Us</h3>
+            <p><strong>AdoptMe</strong>, where love finds its way home. We believe that every pet deserves a caring and nurturing home, and we are dedicated to making the adoption process as smooth, transparent, and joyful as possible. </p>
+          </div>
+          <div class="footer-section">
+            <h3>Address</h3>
+            <p>Hetauda, Nepal</p>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Email: AdoptMeSoon@gmail.com</p>
+            <p>Phone: +977 9845839904</p>
+          </div>
+        </div>
+        <p class="footer-bottom">&copy; 2023 AdoptMe. All rights reserved.</p>
+      </footer>
+      
+</body>
+</html>

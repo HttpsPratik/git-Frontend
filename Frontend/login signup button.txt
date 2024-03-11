@@ -1,0 +1,2 @@
+<button class="btn0 btn-sm" onclick="location.href='login.html'">Login</button>
+            <button class="btn0 btn-sm" onclick="location.href='signup.html'">Sign Up</button>

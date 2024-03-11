@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
+    <title>Adoption form</title>
+</head>
+<body>
+  
+ <header id="home">
+    <!-- navbar -->
+ 
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white px-1 border-bottom">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-4" href="#">Adopt<span class="text-primary">Me</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5 text-center">
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle " href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Listings
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="dogs.html">Dogs</a></li>
+                <li><a class="dropdown-item" href="cats.html">Cats</a></li>
+  
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="others.html">Others</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Help</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Donate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Contact</a>
+          </li>
+        
+          
+          </ul>
+        </div>
+          </ul>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown">
+                <div class="dropdown-box p-2">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-person-circle"> Profile</i>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li><a class="dropdown-item" href="sinup.html">Sign up</a></li>
+                    <li><a class="dropdown-item" href="login.html">Log in</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="d-flex justify-content-center align-items-center">
+            <form class="d-flex me-2">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="container d-flex justify-content-center align-items-center py-3 my-5 " style="min-height: 80vh;">
+        <div class="card shadow">
+          <div class="card-body">
+       <section class="donate my-5" id="donate">
+        <div class="container">
+          <div class="text-center my-5">
+            <h1>Adoption <span class="text-primary">Form</span></h1>
+            <hr / class="w-25 m-auto">
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+              <form class="row  px-sm-5">
+                <div class="col-12 py-1">
+                    <label for="inputEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" required>
+                  </div>
+                
+                <div class="col-12 py-1">
+                  <label for="inputTitle" class="form-label">Title</label>
+                  <input type="text" class="form-control" id="inputTitle" placeholder="Hi! I'm (Pets name),Adult - Male - Medium , Spayed / Neutered," required>
+                </div>
+  
+                <div class="col-md-6  py-1">
+                    <label for="inputState" class="form-label">Category</label>
+                    <select id="inputState" class="form-select" required>
+                      <option selected>Choose your pet</option>
+                      <option>Dog</option>
+                      <option>Cat</option>
+                      <option>Other</option>
+                    </select>
+                  </div>
+                
+                <section class="radio py-1">
+                  <div>
+                  <label for="gender" class="form-label" >Gender</label></div> 
+                  <div class="form-check form-check-inline" >
+                    <input class="form-check-input" type="radio" name="gender" id="inlineMale" value="Male">
+                    <label class="form-check-label" for="inlineMale">Male</label>
+                  </div>
+                  
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender" id="inlineFemale" value="Female">
+                    <label class="form-check-label" for="inlineFemale">Female</label>
+                  </div>
+                
+                <div class="col-12 py-1">
+                  <label for="Textarea1" class="form-label">Description</label>
+                  <textarea class="form-control" id="Textarea1" rows="3" placeholder="Your Pet Details (For example : About its background, etc)" required></textarea>
+                </div>
+                <div class="col-md-6 py-1">
+                    <label for="image">Upload Image:</label>
+                    <input type="file" id="image" name="image" required>
+                  </div>
+                <div class="col-12 mb-2 py-1">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                    <label class="form-check-label" for="gridCheck">
+                      Agree to Terms and Conditions
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12 ">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </form>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12 d-none d-md-block text-end h-100  mb-5">
+              <img src="images/Download free psd _ image of Dog adoption Instagram post template for social media advertisement psd by audi about dog wallpaper high resolution, dog, adoption pet, template dog template, and cute wallpaper of dog 6127942.jpg" class="custom-img img-fluid img-thumbnail ">
+            </div>
+          </div>
+        </div>
+      </section>
+      </div>
+      </div>
+  </div>
+  
+      <footer class="footer-07 ">
+        <div class="container" bis_skin_checked="1">
+        <div class="row justify-content-center" bis_skin_checked="1">
+        <div class="col-md-12 text-center " bis_skin_checked="1">
+        <h2 class="footer-heading mb-2"><a href="Adoptmesoon@gmail.com" class="logo"></a></h2>
+        <p class="menu">
+        <a href="index.html">Home</a>
+        <a href="dogs.html">Listings</a>
+        <a href="index.html">Help</a>
+        <a href="index.html">Donate</a>
+        <a href="index.html">Contact</a>
+        </p>
+
+        <ul class="footer sm-icons p-0 d-flex justify-content-center">
+            <li><a class="footer" href="#" title="" data-original-title="Twitter"><span class="bi bi-twitter-x icon"></span></a></li>
+            <li><a class="footer" href="https://www.facebook.com/profile.php?id=61554357850301&is_tour_dismissed=true" title="" data-original-title="Facebook"><span class="bi bi-facebook icon"></span></a></li>
+            <li><a class="footer" href="https://www.instagram.com/htpps.adptme/" title="" data-original-title="Instagram"><span class="bi bi-instagram icon"></span></a></li>
+          </ul>
+          
+        </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12 text-center mt-5">
+              <p class="copyright">
+                Copyright © 2020 AdoptMe. All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+   AOS.init();
+    </script>
+</header>
+</body>
+</html>

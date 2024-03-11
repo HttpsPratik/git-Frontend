@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+:root{
+    --color-primary: #2b8ff5;
+    --color-primary-dark: #2460b9;
+    --color-secondary: #DC143C;
+    --color-light-grey: #727373;
+    --color-grey: #4d5259;
+    --color-dark-grey: #3D3D3D;
+    --color-off-white: #f9fafb;
+    --color-light: #ffffff11;
+}
+.text-primary{
+    color: var(--color-primary) !important;
+}
+.text-primary-dark{
+    color: var(--color-primary-dark) !important;
+}
+.text-secondary{
+    color: var(--color-secondary) !important;
+}
+.text-light-grey
+{
+    color: var(--color-light-grey) !important;
+}
+.text-grey
+{
+    color: var(--color-grey) !important;
+}
+.text-dark-grey
+{
+    color: var(--color-dark-grey) !important;
+}
+.bg-primary{
+    background: var(--color-primary) !important;
+}
+.bg-primary-dark{
+    background: var(--color-primary-dark) !important;
+}
+.bg-secondary{
+    background: var(--color-secondary) !important;
+}
+.bg-light-grey
+{
+    background: var(--color-light-grey) !important;
+}
+.bg-grey
+{
+    background: var(--color-grey) !important;
+}
+.bg-dark-grey
+{
+    background: var(--color-dark-grey) !important;
+}
+.bg-off-white
+{
+    background: var(--color-off-white) !important;
+}
+.bg-light{
+    background: var(--color-light) !important;
+}
+.bg-primary-dark-gradient{
+    background: linear-gradient(90deg, rgba(36,96,185,1) 0%, rgba(66,127,215,1) 50%, rgba(36,96,185,1) 100%);
+}
+body{
+    font-family: Mukta;
+}
+#wrapper {
+    display: block;
+
+    min-height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--color-off-white);
+}
+.brandlogo
+{
+    max-width: 120px;
+}

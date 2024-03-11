@@ -1,0 +1,99 @@
+
+body{
+    background-color: lemonchiffon;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.wrapper{
+    background-color: lemonchiffon;
+   max-width: 800px;
+    width: 500px;
+    padding: 10px;
+    margin: 50px auto 0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  
+}
+.wrapper h2{
+    background-color: lemonchiffon;
+    color: green;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px dotted black;
+
+
+}
+h4{
+    padding-bottom: 5px;
+    color: green;
+}
+
+.input-group{
+    margin-bottom: 8px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+
+
+}
+.input-box{
+    width: 100%;
+    margin-right: 12px;
+    
+}
+.name{
+    padding: 14px 10px 14px 50px;
+    width: 40%;
+    align-items: center;
+   transition: 0.3s;
+   border: 1px solid wheat;
+   outline: none;
+   letter-spacing: 1px;
+   border-radius: 3px;
+   color: black;
+
+}
+  .dob{
+    width: 30%;
+    text-align: center;
+    padding: 14px;
+    border: 1px solid wheat;
+    border-radius: 3px;
+    background-color: white;
+    outline: none;
+    transition: 0.3s;
+  }
+
+  .name:focus, .dob:focus, .amount:focus{
+    -webkit-box-shadow: 0 0 20px 1px green;
+    -moz-box-shadow: 0 2px 1px green;
+    box-shadow: 0 0 2px 1px green;
+     border: 1px solid green;
+ } 
+  .btn2{
+    width: 30%;
+    background: transparent;
+    border: none;
+    background: green;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  .btn2:hover{
+    cursor: pointer;
+    background: lawngreen;
+  }
+
+  .amount{
+    margin-top: 3%;
+    width: 20%;
+    padding: 18px 50px;
+   font-size: 12px;
+   border: 1px solid wheat;
+   outline: none;
+ 
+  }

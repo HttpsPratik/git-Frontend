@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Jost:wght@100;200;300;400;500;600;700&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+  
+ <header id="home">
+    <!-- navbar -->
+ 
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white px-1 border-bottom">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-4" href="#">
+          
+          Adopt<span class="text-primary">Me</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5  text-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle " href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Listings
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="dogs.html">Dogs</a></li>
+                <li><a class="dropdown-item" href="cats.html">Cats</a></li>
+  
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="others.html">Others</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#help">Help</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#donate">Donate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        
+          
+          </ul>
+        </div>
+          </ul>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown">
+                <div class="dropdown-box p-2">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-person-circle"> Profile</i>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li><a class="dropdown-item" href="sinup.html">Sign up</a></li>
+                    <li><a class="dropdown-item" href="login.html">Log in</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="d-flex justify-content-center align-items-center">
+            <form class="d-flex me-2 ">
+              <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+
+
+
+
+
+
+
+      <!-- 3-slider-swiper-photo  -->
+
+      <div id="carouselExampleCaptions" class="carousel slide mb-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/image (19).jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block fs-4">
+              <h5></h5>
+              <h5></h5>
+              <p></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/1,000+ Free Stray & Cat Images.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h5></h5>
+              <p></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/Nepal-Stray-Dog-Rehabilitation-Monique-Peachman-22-odxnyolu4gifqvck4e6dbzer4flk7hl1gd18sluaao.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h5></h5>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        
+     
+
+    
+
+        <!-- Missing Pets -->
+        <section class="help py-5 bg-light" id="help">
+          <div class="container my-5">
+            <div class="d-flex  mb-4">
+              <div class="text-primary flex-grow-1 text-center">
+                <h1 >Have you <span class="text-primary">seen us ?</span></h1>
+                <hr / class="w-25 m-auto">
+              </div>
+              <div>
+                <button type="button" class="btn btn-outline-danger mx-3 fs-6 glow-button"  
+                        data-aos="zoom-in"
+                        data-aos-easing="linear"
+                        data-aos-duration="800"
+                        onclick="location.href='missing.html'">
+                  Pet's Missing !!???<br>Click here
+                </button>
+              </div>
+              
+            </div>
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="pets/Satey.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Satey</h5>
+                  <p class="card-text">Setey been missing from Chaukitol area, Hetauda since Shrawn 05. Please contact at this number (984583990) if you see him anywhere.A reward is being offered for their safe return.</p>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="pets/Kanxi.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Kanxi</h5>
+                  <p class="card-text">Kanxi been missing from Hetauda -5, Piple since Ashar 25. Please contact us at (057-23132), if you have any information regarding Kanxi. A reward is being offered for their safe return.</p>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="pets/sani.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sani</h5>
+                  <p class="card-text">Sani been missing from Bargachi area, Biratnagar since Shrawn 01. Please contact us at (984503237) if you see her anywhere.A generous reward is being offered for the safe return.</p>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="pets/Hero.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Hero</h5>
+                  <p class="card-text">Hero been missing from Hile area, Dhankuta since Shrawn 04. Please contact at (986517552) if you see him anywhere. A reward is being offered for their safe return.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+     </section>
+
+
+
+     <!-- Donate -->
+     
+     <div class="container d-flex justify-content-center align-items-center " style="min-height: 80vh;">
+      <div class="card shadow">
+        <div class="card-body">
+     <section class="donate my-5" id="donate">
+      <div class="container">
+        <div class="text-center my-5">
+          <h1>Save a <span class="text-primary">Life</span></h1>
+          <hr / class="w-25 m-auto">
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+            <form class="row  px-sm-5">
+              <div class="col-md-6">
+                <label for="inputFName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="inputFName" required>
+              </div>
+              <div class="col-md-6">
+                <label for="inputLName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="inputLName" required>
+              </div>
+              <div class="col-md-6">
+                <label for="inputEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail">
+              </div>
+              <div class="col-md-6">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress">
+              </div>
+
+            
+              
+              <section class="radio py-1 ">
+                <div>
+                <label for="paymentOptions" class="form-label">Payment details</label></div> 
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="paymentOptions" id="inlineVisa" value="Visa">
+                  <label class="form-check-label" for="inlineVisa">Visa</label>
+                </div>
+                
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="paymentOptions" id="inlineMastercard" value="Mastercard">
+                  <label class="form-check-label" for="inlineMastercard">Master Card</label>
+                </div>
+              
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="paymentOptions" id="inlinePaypal" value="Paypal">
+                  <label class="form-check-label" for="inlinePaypal">Paypal</label>
+                </div>
+                <div class="col-12">
+                  <div class="row g-3 py-1">
+                    <div class="col-md-6">
+                      <label for="inputCardnumber" class="form-label">Card Number</label>
+                      <input type="number" class="form-control" id="inputCardnumber" required>
+                    </div>
+                    <div class="col-md-6 ">
+                      <label for="inputAmount" class="form-label">Amount</label>
+                      <input type="number" class="form-control" id="inputAmount" required>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              
+           
+              
+              <div class="col-md-6  ">
+                <label for="inputState" class="form-label">Tell us how you heard of us</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>Through a friend</option>
+                  <option>Social Media</option>
+                  <option>Search engine</option>
+                  <option>Television</option>
+                  <option>Others</option>
+                </select>
+              </div>
+              <div class="col-12 py-1">
+                <label for="Textarea1" class="form-label">Leave us a comment</label>
+                <textarea class="form-control" id="Textarea1" rows="3"></textarea>
+              </div>
+              <div class="col-12 mb-2">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Agree to Terms and Conditions
+                  </label>
+                </div>
+              </div>
+              <div class="col-12 ">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 col-12 d-none d-md-block text-end h-100  mt-2">
+            <img src="dogs/I find the lack of Indian street dogs on this sub as quite sad_ Indian Street Dogs are a breed of cuteness unto themselves_.jpeg" class="custom-img img-fluid img-thumbnail p-2 h-100">
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+    </div>
+</div>
+
+<!-- Rescue Organization -->
+<section class="rescue my-5">
+  <sect class="container">
+<div class="container  mt-5 mb-5">
+  <div class="text-primary flex-grow-1 text-center">
+    <h1 >Rescue : Organizations to<span class="text-primary"> Call for Help !!</span></h1>
+    <hr / class="w-25 m-auto">
+  </div>
+  <div class="table-responsive">
+    <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>Adoption Center</th>
+            <th>Location</th>
+            <th>Contact</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Street Dog Care</td>
+            <td>Kopan</td>
+            <td>9803976378, <br>contact@communitydogwelfarekopan.org</td>
+          </tr>
+          <tr>
+            <td>Together for Paws</td>
+            <td>Bhaktapur</td>
+            <td>9861586314, <br> 9841708537</td>
+          </tr>
+          <tr>
+            <td>KAT Centre</td>
+            <td>Kathmandu</td>
+            <td> 9869599019,<br>katinfo@katcentre.org </td>
+          </tr>
+          <tr>
+            <td>Shree's Animal Rescue Nepal</td>
+            <td>Patan (Lalitpur)</td>
+            <td>srijanathakuri75@gmail.com</td>
+          </tr> <tr>
+            <td>Sneha's Care</td>
+            <td>Patan (Lalitpur)</td>
+            <td>info@snehacare.com</td>
+          </tr>
+          <tr>
+            <td>Animal Nepal</td>
+            <td>Patan (Lalitpur)</td>
+            <td>9801222306, <br>animalnepal@gmail.com</td>
+          </tr> <tr>
+            <td>HART</td>
+            <td>Pokhara and</td>
+            <td> 9846531069,<br>9819104973</td>
+          </tr>
+          <tr>
+            <td>HART</td>
+            <td> Bharatpur (Chitwan)</td>
+            <td> 9845580779</td>
+          </tr> <tr>
+            <td>Solti's Hope Street Animal Rescue</td>
+            <td>Bardiya, Nepalgunj, Dang, Dhangadi, Surkhet, Dhading, <br>Butwal, Jhapa, Biratnagar, Heutuda, and Kathmandu.</td>
+            <td>9863656555</td>
+          </tr>
+          <tr>
+            <td>I Care You</td>
+            <td>Kanchanpur</td>
+            <td>9848802372</td>
+          </tr> 
+        </tbody>
+  
+     
+     </table>
+     </div>
+</div>
+
+<!-- Some Veterinary Hospitals !! -->
+<section class="rescue my-5">
+  
+ <div class="container  mt-5 mb-5">
+  <div class="text-primary flex-grow-1 text-center">
+    <h1 >Some Veterinary <span class="text-primary"> Hospitals </span></h1>
+    <hr / class="w-25 m-auto">
+  </div>
+  <div class="table-responsive">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Veterinary Hospital</th>
+          <th>Location</th>
+          <th>Contact</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Usha Vet Pharma</td>
+          <td>Sahidchowk, Chitwan</td>
+          <td>056-595067,<br>9865214040</td>
+        </tr>
+        <tr>
+          <td>Makawanpur Vet And Diagnosis Center Pvt.Ltd</td>
+          <td> Hetauda, Makawanpur</td>
+          <td>057-412223,<br>9855071088</td>
+        </tr> <tr>
+          <td>Primo Vet Pharma</td>
+          <td>Dhading Bensi, Puchhar Bazar, Dhading </td>
+          <td>9841641608,<br>9851213608</td>
+        </tr>
+        <tr>
+          <td>Veterinary Hospital and Veterinary Service Expert Center</td>
+          <td> Sewa Marg, Biratnagar </td>
+          <td>021-461958</td>
+        </tr><tr>
+          <td>Purwanchal Vet Pharma - Veterinary Clinic And Lab</td>
+          <td>Purva line, Ithari</td>
+          <td>9845330733</td>
+        </tr><tr>
+          <td>Vet for Your Pet</td>
+          <td>Banshidhar Marg, Kathmandu</td>
+          <td>01-4543505</td>
+        </tr><tr>
+          <td>Jibachha Veterinary Hospital</td>
+          <td>Jhamsikhel Road 2, Lalitpur</td>
+          <td>01-5450013</td>
+        </tr><tr>
+          <td>VAANS Veterinary Hospital</td>
+          <td>Shankharpur and nearby areas</td>
+          <td>9851324133</td>
+        </tr><tr>
+          <td>Vet for Your Pet - the Animal's Clinic</td>
+          <td>Bhaktapur</td>
+          <td>01-6613244</td>
+        </tr><tr>
+          <td>Best Friends Veterinary Hospital</td>
+          <td>Pokhara</td>
+          <td>9864427226</td>
+        </tr><tr>
+          <td>Kathmandu Veterinary Clinic</td>
+          <td>Chakrapath, Kathmandu</td>
+          <td>01-4720266</td>
+        </tr>
+        <tr>
+          <td>Animal Health Care</td>
+          <td>Siddhartha Raj Marg, Butwal</td>
+          <td>9857043418</td>
+        </tr>
+        <tr>
+          <td>Home service veterinary centre</td>
+          <td>Kathmandu</td>
+          <td>9860627544</td>
+        </tr>
+        <tr>
+          <td>Vet Care Center</td>
+          <td>Main Road, Dhangadhi</td>
+          <td>091-525278</td>
+        </tr>
+        <tr>
+          <td>Krishna Veterinary Service</td>
+          <td>Butwal</td>
+          <td>9844788131</td>
+        </tr>
+        <tr>
+          <td>Rara Veterinary</td>
+          <td>Pokhara</td>
+          <td>061-541169</td>
+        </tr>
+        <tr>
+          <td>सिप्तुङ्खा पशु उपचार केन्द्र</td>
+          <td>Chulachuli</td>
+          <td>981-6018951</td>
+        </tr>
+        
+      </tbody>
+  
+     </table>
+     </div>
+   </div>
+</section>
+
+      <!-- Contact -->
+   <div class="container d-flex justify-content-center align-items-center mt-5" style="min-height: 80vh;">
+     <div class="card shadow">
+       <div class="card-body">
+      <div class="contact py-2" id="contact">
+        <div class="container">
+          <div class="text-center my-5">
+            <h1 data-aos="zoom-in"
+            data-aos-easing="linear"
+            data-aos-duration="1500">Contact <span class="text-primary">Us</span></h1>
+            <hr / class="w-25 m-auto">
+          </div>
+          <div class="row">
+            <div class="com-sm-12 col-md-6 col-lg-6 col-12"data-aos="fade-up-left"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="inputAddress" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="inputAddress" class="form-label">Address</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="">
+                </div>
+                
+                <div class="Message">
+                  <label for="Textarea1" class="form-label">Message</label>
+                  <textarea class="form-control" id="Textarea1" rows="3"></textarea>
+                </div>
+            
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                    <label class="form-check-label" for="gridCheck">
+                       Agree to terms and conditions
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary mb-5">Submit</button>
+                </div>
+              </form>
+            </div>
+              <div class="com-sm-12 col-md-6 col-lg-6 col-12 d-none d-md-block text-end"data-aos="fade-up-right"
+              data-aos-easing="linear"
+              data-aos-duration="1500">
+                <img src="images/contact.jpeg" class="custom-img img-fluid img-thumbnail p-2 ">
+              </div>
+            
+          </div>
+        </div>
+      </div>
+      </section>
+    </div>
+  </div>
+</div>
+
+<footer class="footer-07 ">
+  <div class="container" bis_skin_checked="1">
+  <div class="row justify-content-center" bis_skin_checked="1">
+  <div class="col-md-12 text-center " bis_skin_checked="1">
+  <h2 class="footer-heading mb-2"><a href="Adoptmesoon@gmail.com" class="logo"></a></h2>
+  <p class="menu">
+  <a href="index.html">Home</a>
+  <a href="dogs.html">Listings</a>
+  <a href="index.html">Help</a>
+  <a href="index.html">Donate</a>
+  <a href="index.html">Contact</a>
+  </p>
+
+  <ul class="footer sm-icons p-0 d-flex justify-content-center">
+      <li><a class="footer" href="#" title="" data-original-title="Twitter"><span class="bi bi-twitter-x icon"></span></a></li>
+      <li><a class="footer" href="https://www.facebook.com/profile.php?id=61554357850301&is_tour_dismissed=true" title="" data-original-title="Facebook"><span class="bi bi-facebook icon"></span></a></li>
+      <li><a class="footer" href="https://www.instagram.com/htpps.adptme/" title="" data-original-title="Instagram"><span class="bi bi-instagram icon"></span></a></li>
+    </ul>
+    
+  </div>
+  </div>
+  
+  <div class="row">
+      <div class="col-md-12 text-center mt-5">
+        <p class="copyright">
+          Copyright © 2020 AdoptMe. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+   AOS.init();
+    </script>
+</header>
+</body>
+</html>

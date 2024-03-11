@@ -1,0 +1,27 @@
+For animation : https://michalsnik.github.io/aos/
+
+
+data-aos="zoom-in"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+
+
+example :
+
+      <section class="contact py-5"data-aos="fade-right"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
+        <div class="container">
+          <div class="text-center my-5">
+            <h1>Contact <span class="text-primary">Us</span></h1>
+            <hr / class="w-25 m-auto">
+          </div>
+
+
+
+examples:
+zoom-in-up
+zoom-in-down
+
+
+

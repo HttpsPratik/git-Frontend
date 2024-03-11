@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="home.css">
+   <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+   <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/44f557ccce.js"></script>
+   
+    <title>Home</title>
+</head>
+<body>
+    
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="images/image (5).jpg" alt="Logo"></div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="listings.html">Listings</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="message.html">Message</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            
+        
+        </ul>
+        <div class="rightnav">
+            <a class="profile-button" onclick="location.href='inbox.html'">
+                <i class="fas fa-envelope"></i> Inbox
+              </a>
+            <a  class="profile-button" onclick="location.href='login.html'">
+                <i class="fas fa-user"> User Profile</i> 
+              </a>            
+              <a class="profile-button" id="searchButton">
+                <i class="fas fa-search"></i> Search
+              </a>
+              <div class="popup-label">
+                <input type="text" name="popup-label1" id="popup-label1" placeholder="Enter your queries">
+              <button class="btn4 btn-sm" onclick="location.href='search.html'">Go</button>
+              </div> 
+              <script src="searchpop.js"></script>
+        </div>
+       
+        
+    </nav>
+   
+<div class="popup" id="popup">
+    <button id="close">&times;</button>
+    <h1>Ready for Adoption ?</h1>
+    <p>Take the first step towards exploring our adoption website.
+        <br> Together, we can make a difference, one adoption at a time.</p>
+<a href="listings.html">Get Started</a>
+</div>
+
+<script>
+  window.addEventListener('scroll', function() {
+  const popup = document.getElementById('popup');
+  popup.style.top = `${Math.max(window.innerHeight / 1 + window.pageYOffset - popup.offsetHeight / 1, 0)}px`;
+});
+</script>
+<button id="arrowButton" title="Scroll to Top">
+  <span class="arrow-up"></span>
+</button>
+
+<script src="arrow.js"></script>
+<script src="popup.js"></script>
+
+     
+
+<section class="background firstSection">
+    <div class="box-main">
+        <div class="firstHalf">
+            <p class="text-big" style="font-size: 33px;">Make adoption your first Priority !!</p>
+       <div class="buttons">
+        <button class="btn" onclick="window.open('https://www.facebook.com/profile.php?id=100006207768859', '_blank')">Facebook</button>
+        <button class="btn" onclick="window.open('https://www.instagram.com/htpps.haru/', '_blank')">Instagram</button>
+    </div>
+
+    <div id="particles-js"></div>
+
+   <script src="particle.js"></script>
+
+        <div class="secondHalf">
+          <img src="" alt="">
+
+        </div>
+    </div>
+</section>
+
+<div class="missing">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <h2>Missing Pets !!</h2>
+  <div class="slider-container" >
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <div class="slider-box">
+      <img src="pets/missing 1.jpeg" alt="Dog">
+      <h4>Setey</h4>
+      <p>Setey been missing from Chaukitol area, Hetauda since Shrawn 05. Please contact at this number (984583990) if you see him anywhere.A reward is being offered for their safe return. </p>
+    </div>
+  
+    <div class="slider-box">
+      <img src="pets/missing 6.jpg" alt="Cat">
+      <h4>Kanxi</h4>
+      <p>Kanxi been missing from Hetauda -5, Piple since Ashar 25. Please contact us at (057-23132) if you if you have any information about Kanxi. A reward is being offered for their safe return.</p>
+    </div>
+    <div class="slider-box">
+      <img src="pets/missing 5.jpg" alt="Dog">
+      <h4>Sani</h4>
+      <p>Sani been missing from Bargachi area, Biratnagar since Shrawn 01. Please contact us at (984503237) if you see her anywhere.A generous reward is being offered for the safe return. </p>
+    </div>
+    <div class="slider-box">
+      <img src="pets/missing 3.jpg" alt="Dog">
+      <h4>Hero</h4>
+      <p>Hero been missing from Hile area, Dhankuta since Shrawn 04. Please contact at (986517552) if you see him anywhere. A reward is being offered for their safe return.</p>
+    </div>
+  </div>
+  </div>
+
+<section class="section">
+    
+    <p class="sectionTag text-big">Why to Adopt and not Shop ?</p>
+    <div class="paras">
+      <video autoplay loop muted plays-inline class="background-clip">
+        <source src="pets/dog2.mp4" type="video/mp4">
+      </video>
+    <dic class="sectionSubTag text-small"> 
+        <strong>1. ADOPTING MEANS YOU SAVE A LIFE! </strong> <br>
+        When you adopt, not only do you save your loving new companion, 
+        but you make space for other animals who desperately needs it. 
+        You are providing a second chance to an animal in need.
+         Many animals in streets are loving and deserving of a forever home,
+          and by adopting, you directly contribute to saving a life.<br><br>
+          <strong>2. YOU CAN'T BUY HAPPINESS, IT COMES TO YOU! </strong> <br>
+          The biggest motto to remember here is “Money can't buy you happiness”. The love you receive from animals is unconditional. So whether you purchase a tiny puppy or you rescue an abandoned one,
+           the degrees of love will be the same. They don't show the difference then why do we feel that buying the breed that you prefer might give you more happiness?<br><br>
+        <strong>3. YOU WILL DIRECTLY  NOT BE SUPPORTING ANIMAL CURELITY!</strong> <br>
+        When you buy a dog or rabbit from a pet store, you're actually supporting the cruel puppy mills that are literally “breeding factories” that put profits way before the welfare of dogs. Animals from puppy mills are housed in shockingly poor conditions. 
+        Without any proper medical care, they fall sick often and are behaviourally troubled as a result.<br><br>
+        <strong>4. THESE ANIMALS DESERVES A FOREVER HOME TOO! </strong> <br>
+        As we humans want to be loved and find companionship in our family and friends, why should we take away that right from all these homeless, abandoned animals. 
+        They were treated wrongly, and not given this right to happiness and by giving them some space in our hearts and homes, we are giving them what they deserve!<br><br>
+        <strong>5. YOU WILL ALWAYS FEEL PROUD FOR HAVING A LIFE SAVED! </strong> <br>
+        Everyday, when you come back home from work or school, it's an ecstatic feeling for both you and your pet. They wait all day for you to come back home. A sense of joy takes over you when you realise that you actually made those little ones feel worthy, you’ll definitely feel pride seeping into your heart.
+         The heart that chose an animal that needed a home rather than an animal that was created for homes. <br> <br>
+         
+
+    </p>
+    </div>
+   
+        <div class="thumbnail">
+       
+            <!-- <img src="images/image (1).jpg" alt="Dog" class="imgFluid"> -->
+            <!-- <img src="images/Bruno.jpg" alt="" class="imgFluid"> -->
+        </div>
+    </section>
+
+    <div class="table-container">
+      
+       
+      <table class="table" id="adoptionTable">
+        <h2>Street Animal Rescue : Organizations to Call for Help !!</h2>
+        <thead>
+          <tr>
+            <th>Adoption Center</th>
+            <th>Location</th>
+            <th>Contact</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Street Dog Care</td>
+            <td>Kopan</td>
+            <td>9803976378, <br>contact@communitydogwelfarekopan.org</td>
+          </tr>
+          <tr>
+            <td>Together for Paws</td>
+            <td>Bhaktapur</td>
+            <td>9861586314, <br> 9841708537</td>
+          </tr>
+          <tr>
+            <td>KAT Centre</td>
+            <td>Kathmandu</td>
+            <td> 9869599019,<br>katinfo@katcentre.org </td>
+          </tr>
+          <tr>
+            <td>Shree's Animal Rescue Nepal</td>
+            <td>Patan (Lalitpur)</td>
+            <td>srijanathakuri75@gmail.com</td>
+          </tr> <tr>
+            <td>Sneha's Care</td>
+            <td>Patan (Lalitpur)</td>
+            <td>info@snehacare.com</td>
+          </tr>
+          <tr>
+            <td>Animal Nepal</td>
+            <td>Patan (Lalitpur)</td>
+            <td>9801222306, <br>animalnepal@gmail.com</td>
+          </tr> <tr>
+            <td>HART</td>
+            <td>Pokhara and</td>
+            <td> 9846531069,<br>9819104973</td>
+          </tr>
+          <tr>
+            <td>HART</td>
+            <td> Bharatpur (Chitwan)</td>
+            <td> 9845580779</td>
+          </tr> <tr>
+            <td>Solti's Hope Street Animal Rescue</td>
+            <td>Bardiya, Nepalgunj, Dang, Dhangadi, Surkhet, Dhading, <br>Butwal, Jhapa, Biratnagar, Heutuda, and Kathmandu.</td>
+            <td>9863656555</td>
+          </tr>
+          <tr>
+            <td>I Care You</td>
+            <td>Kanchanpur</td>
+            <td>9848802372</td>
+          </tr> 
+        </tbody>
+  
+      </table>
+    </div>
+
+  
+    <div class="table-container">
+      <table class="table" id="veterinaryTable">
+        <h1 id="one">Some Veterinary Hospitals !!</h1>
+        <thead>
+          <tr>
+            <th>Veterinary Hospital</th>
+            <th>Location</th>
+            <th>Contact</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Usha Vet Pharma</td>
+            <td>Sahidchowk, Chitwan</td>
+            <td>056-595067,<br>9865214040</td>
+          </tr>
+          <tr>
+            <td>Makawanpur Vet And Diagnosis Center Pvt.Ltd</td>
+            <td> Hetauda, Makawanpur</td>
+            <td>057-412223,<br>9855071088</td>
+          </tr> <tr>
+            <td>Primo Vet Pharma</td>
+            <td>Dhading Bensi, Puchhar Bazar, Dhading </td>
+            <td>9841641608,<br>9851213608</td>
+          </tr>
+          <tr>
+            <td>Veterinary Hospital and Veterinary Service Expert Center</td>
+            <td> Sewa Marg, Biratnagar </td>
+            <td>021-461958</td>
+          </tr><tr>
+            <td>Purwanchal Vet Pharma - Veterinary Clinic And Lab</td>
+            <td>Purva line, Ithari</td>
+            <td>9845330733</td>
+          </tr><tr>
+            <td>Vet for Your Pet</td>
+            <td>Banshidhar Marg, Kathmandu</td>
+            <td>01-4543505</td>
+          </tr><tr>
+            <td>Jibachha Veterinary Hospital</td>
+            <td>Jhamsikhel Road 2, Lalitpur</td>
+            <td>01-5450013</td>
+          </tr><tr>
+            <td>VAANS Veterinary Hospital</td>
+            <td>Shankharpur and nearby areas</td>
+            <td>9851324133</td>
+          </tr><tr>
+            <td>Vet for Your Pet - the Animal's Clinic</td>
+            <td>Bhaktapur</td>
+            <td>01-6613244</td>
+          </tr><tr>
+            <td>Best Friends Veterinary Hospital</td>
+            <td>Pokhara</td>
+            <td>9864427226</td>
+          </tr><tr>
+            <td>Kathmandu Veterinary Clinic</td>
+            <td>Chakrapath, Kathmandu</td>
+            <td>01-4720266</td>
+          </tr>
+          <tr>
+            <td>Animal Health Care</td>
+            <td>Siddhartha Raj Marg, Butwal</td>
+            <td>9857043418</td>
+          </tr>
+          <tr>
+            <td>Home service veterinary centre</td>
+            <td>Kathmandu</td>
+            <td>9860627544</td>
+          </tr>
+          <tr>
+            <td>Vet Care Center</td>
+            <td>Main Road, Dhangadhi</td>
+            <td>091-525278</td>
+          </tr>
+          <tr>
+            <td>Krishna Veterinary Service</td>
+            <td>Butwal</td>
+            <td>9844788131</td>
+          </tr>
+          <tr>
+            <td>Rara Veterinary</td>
+            <td>Pokhara</td>
+            <td>061-541169</td>
+          </tr>
+          <tr>
+            <td>सिप्तुङ्खा पशु उपचार केन्द्र</td>
+            <td>Chulachuli</td>
+            <td>981-6018951</td>
+          </tr>
+          
+        </tbody>
+      </table>
+    
+  </div>
+   
+
+   <div class="poster-box">
+     <div class="poster">
+         <img src="images/Poster.jpg" alt="Hope">
+     </div>
+     <div class="quote">
+         <p>"Family isn't always blood. It's the people in your life who want you in theirs; the ones who accept you for who you are. The ones who would do anything to see you smile and who love you no matter what." </p> 
+        
+     </div>
+</div>
+
+
+        <footer>
+            <div class="container">
+              <div class="footer-section">
+                <h3>About Us</h3>
+                <p><strong>AdoptMe</strong>, where love finds its way home. We believe that every pet deserves a caring and nurturing home, and we are dedicated to making the adoption process as smooth, transparent, and joyful as possible. </p>
+              </div>
+              <div class="footer-section">
+                <h3>Address</h3>
+                <p>Hetauda, Nepal</p>
+              </div>
+              <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: AdoptMeSoon@gmail.com</p>
+                <p>Phone: +977 9845839904</p>
+              </div>
+            </div>
+            <p class="footer-bottom">&copy; 2023 AdoptMe. All rights reserved.</p>
+          </footer>
+          
+</body>
+</html>

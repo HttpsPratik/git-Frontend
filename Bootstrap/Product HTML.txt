@@ -1,0 +1,115 @@
+html:
+
+
+ <!-- product-listings -->
+      <section class="trending-product" id="trending-product">
+        <div class="center-text">
+          <h2><span>Listings</span></h2>
+        </div>
+
+        <div class="products">
+          <div class="row">
+            <img src="images/dog-snehas-care-1024x734.jpg" alt="sheru">
+            <div class="product-text">
+              <h2>Sheru</h2>
+              <h4>Male<br> 
+                Age: 2 years</h4>
+            </div>
+            <div class="heart-icon">
+              <i class='bx bx-heart'></i>
+            </div>
+           
+          </div>
+          <div class="row">
+            <img src="images/dog-snehas-care-1024x734.jpg" alt="sheru">
+            <div class="product-text">
+              <h2>Sheru</h2>
+              <h4>Male<br> 
+                Age: 2 years</h4>
+            </div>
+            <div class="heart-icon">
+              <i class='bx bx-heart'></i>
+            </div>
+           
+          </div>
+          <div class="row">
+            <img src="images/dog-snehas-care-1024x734.jpg" alt="sheru">
+            <div class="product-text">
+              <h2>Sheru</h2>
+              <h4>Male<br> 
+                Age: 2 years</h4>
+            </div>
+            <div class="heart-icon">
+              <i class='bx bx-heart'></i>
+            </div>
+           
+          </div>
+          <div class="row">
+            <img src="images/dog-snehas-care-1024x734.jpg" alt="sheru">
+            <div class="product-text">
+              <h2>Sheru</h2>
+              <h4>Male<br> 
+                Age: 2 years</h4>
+            </div>
+            <div class="heart-icon">
+              <i class='bx bx-heart'></i>
+            </div>
+           
+          </div>
+          <div class="row">
+            <img src="images/dog-snehas-care-1024x734.jpg" alt="sheru">
+            <div class="product-text">
+              <h2>Sheru</h2>
+              <h4>Male<br> 
+                Age: 2 years</h4>
+            </div>
+            <div class="heart-icon">
+              <i class='bx bx-heart'></i>
+            </div>
+           
+          </div>
+          <div class="row">
+            <img src="images/dog-snehas-care-1024x734.jpg" alt="sheru">
+            <div class="product-text">
+              <h2>Sheru</h2>
+              <h4>Male<br> 
+                Age: 2 years</h4>
+            </div>
+            <div class="heart-icon">
+              <i class='bx bx-heart'></i>
+            </div>
+           
+          </div>
+          <div class="row">
+            <img src="images/dog-snehas-care-1024x734.jpg" alt="sheru">
+            <div class="product-text">
+              <h2>Sheru</h2>
+              <h4>Male<br> 
+                Age: 2 years</h4>
+            </div>
+            <div class="heart-icon">
+              <i class='bx bx-heart'></i>
+            </div>
+           
+          </div>
+          <div class="row">
+            <img src="images/dog-snehas-care-1024x734.jpg" alt="sheru">
+            <div class="product-text">
+              <h2>Sheru</h2>
+              <h4>Male<br> 
+                Age: 2 years</h4>
+            </div>
+            <div class="heart-icon">
+              <i class='bx bx-heart'></i>
+            </div>
+           
+          </div>
+
+        </div>
+
+      </section>
+      <script src="java.js"></script>
+
+
+
+

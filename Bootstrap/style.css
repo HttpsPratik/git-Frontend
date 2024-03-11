@@ -1,0 +1,325 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Jost', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Logo */
+
+
+
+
+
+
+/* for slider */
+.carousel-item img{
+    width: 100%;
+    height: 80vh;
+
+}
+
+
+
+/* Profile dropdown */
+.dropdown-box {
+
+  padding: 5px; 
+  border-radius: 5px; 
+}
+
+/* Contact's image */
+.custom-img {
+    width: 400px; 
+    height: auto; 
+  }
+  
+
+/* Pet missing */
+.glow-button {
+    animation: glowing 1s infinite;
+  }
+  
+  @keyframes glowing {
+    0% {
+      box-shadow: 0 0 5px 0 rgba(255, 0, 0, 0.5);
+    }
+    50% {
+      box-shadow: 0 0 20px 10px rgba(255, 0, 0, 0.5);
+    }
+    100% {
+      box-shadow: 0 0 5px 0 rgba(255, 0, 0, 0.5);
+    }
+  }
+  
+
+  /* Post here box of Listing section */
+  .r-section{
+    text-align: right;
+    padding-right: 2%;
+    margin-top: 2%;
+  }
+  .btn-adopt{
+    margin-right: 6%;
+    padding: 5px 3px;
+    margin-top: 8px;
+  }
+  .r-sec{
+    margin-left: 42%;
+    margin-top: 2%;
+  }
+  .post-adoption-button {
+    display: inline-block;
+    padding: 20px 16px;
+    margin-left: 48%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    align-items: right;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #ff4e50, #f9d423);
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .post-adoption-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .border-box{
+    border: 7px solid orange;
+    border-radius: 20px;
+   
+  }
+
+  /* listing dogs,cats and others */
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .product {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .product h2 {
+    margin-top: 10px;
+  }
+  
+  .product p {
+    margin: 10px 0;
+  }
+  
+  .product button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .product button:hover {
+    background-color: #45a049;
+  }
+  
+  .product button:active {
+    background-color: #3e8e41;
+  }
+  
+  .product button:focus {
+    outline: none;
+  }
+  
+ .product-header{
+  text-align: center;
+  margin-top: 5%;
+ }
+
+ .pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.pagination a {
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  color: #333;
+  margin: 0 5px;
+  
+}
+
+.pagination a:hover {
+  background-color: blue;
+}
+
+.pagination .prev,
+.pagination .next {
+  background-color: #333;
+  color: white;
+}
+  
+  /* Post button - Adoption form */
+  .adoption-form {
+    max-width: 574px;
+    margin: 0 auto;
+    padding: 49px;
+    background-color: lightgrey;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+h3 {
+  text-align: center;
+  color: #333;
+  
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+
+.form-group input[type="text"],
+
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  appearance: none;
+}
+
+.input-file-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-file {
+  opacity: 0;
+  width: 0.1px;
+  height: 0.1px;
+  position: absolute;
+}
+
+.add-image-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.add-image-button:hover {
+  background-color: #0056b3;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  padding-right: 27px;
+}
+
+.submit-button:hover {
+  background-color:white;
+}
+
+
+/* Footer Styles */
+
+.footer-07 {
+  background-color: #333333; 
+  color: white; 
+  padding: 10px 0; 
+}
+
+.footer-heading a.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white; 
+  text-decoration: none;
+}
+
+.footer-heading a.logo:hover {
+  color: #cccccc; 
+}
+
+.menu a {
+  color: white; 
+  text-decoration: none;
+  margin: 0 15px; 
+}
+
+.menu a:hover {
+  color: #cccccc; 
+}
+
+
+
+/* Copyright text */
+.copyright-footer p {
+  margin-top: 30px; 
+  color: white; 
+  font-size: 14px;
+}
+
+
+
+/* social media icons */
+.footer .icon {
+  font-size: 24px; 
+  margin-right: 15px; 
+}
